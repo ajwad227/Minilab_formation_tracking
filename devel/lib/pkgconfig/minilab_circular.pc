@@ -1,0 +1,8 @@
+prefix=/home/ali/formation_TV/devel
+
+Name: minilab_circular
+Description: Description of minilab_circular
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ali/formation_TV/devel/lib -lminilab_circular
+Requires: roscpp rospy std_msgs

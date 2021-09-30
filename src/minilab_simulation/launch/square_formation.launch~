@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  	<param name="/use_sim_time" value="true" />
+ 
+  <node name="Leader" type="Leader" pkg="minilab_circular" />
+  <node name="agent1" type="agent1" pkg="minilab_circular" />
+  <node name="agent2" type="agent2" pkg="minilab_circular" />
+  <node name="agent3" type="agent3" pkg="minilab_circular" />
+  <include file="$(find minilab_simulation)/launch/save_data.launch"/>
+</launch>

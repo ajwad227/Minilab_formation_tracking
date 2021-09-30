@@ -1,0 +1,2 @@
+minilab_circular:minilab_navigation:minilab_simulation
+-DCATKIN_DEVEL_PREFIX=/home/ali/formation_TV/devel -DCMAKE_INSTALL_PREFIX=/home/ali/formation_TV/install -G Unix Makefiles

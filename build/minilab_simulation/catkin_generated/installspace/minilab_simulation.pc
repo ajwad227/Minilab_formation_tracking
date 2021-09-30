@@ -1,0 +1,8 @@
+prefix=/home/ali/formation_TV/install
+
+Name: minilab_simulation
+Description: Description of minilab_simulation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ali/formation_TV/install/lib 
+Requires: 

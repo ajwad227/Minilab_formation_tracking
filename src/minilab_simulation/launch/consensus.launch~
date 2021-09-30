@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  	<param name="/use_sim_time" value="true" />
+ 
+  <node name="move_pub_Leader" type="move_pub_Leader" pkg="minilab_navigation" />
+  <node name="move_pub_agent1" type="move_pub_agent1" pkg="minilab_navigation" />
+  <node name="move_pub_agent2" type="move_pub_agent2" pkg="minilab_navigation" />
+  <node name="move_pub_agent3" type="move_pub_agent3" pkg="minilab_navigation" />
+  <node name="move_pub_agent4" type="move_pub_agent4" pkg="minilab_navigation" />
+ <!-- <include file="$(find minilab_simulation)/launch/save_data.launch"/>-->
+</launch>
